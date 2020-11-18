@@ -8,7 +8,7 @@ To build yocto please clone the following yocto git repositories:
 To use the bbb meta layer perform the following commands:
 
 - git clone --recurse-submodules https://github.com/mkauli/yocto_bbb.git bbb
-- edit file: build/conf/bblayers.conf  - adjust the HOME path
+- edit file: bbb/build/conf/bblayers.conf  - adjust the HOME path
 - source poky-dunfell/oe-init-build-env ./bbb/build
 - bitbake console-image
 
