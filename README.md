@@ -37,8 +37,7 @@ sudo OETMP=`pwd`/bbb/build/tmp bbb/meta-bbb/scripts/copy_rootfs.sh loop0 console
 sleep 2
 sudo mount /dev/loop0p1 /media/card_boot
 sudo mount /dev/loop0p2 /media/card
-sudo cp ./bbb/meta-bbb/scripts/uEnv.txt-example /media/card_boot/uEnv.txt
-sudo cp ./bbb/meta-bbb/scripts/uEnv.txt-example /media/card/boot/uEnv.txt
+sudo cp ./bbb/meta-mkaul/scripts/uEnv.txt /media/card_boot/uEnv.txt
 sleep 2
 sudo umount /media/card
 sudo umount /media/card_boot
